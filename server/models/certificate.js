@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const CertificateSchema = new mongoose.Schema({
-    student_name: {
+    student_name:{
         type: String,
         required: true
     },
@@ -9,11 +9,11 @@ const CertificateSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    student_email: {
+    student_email:{
         type: String,
         required: true
     },
-    course_name: {
+    course_name:{
         type: String,
         required: true
     },
