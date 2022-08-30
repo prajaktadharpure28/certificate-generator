@@ -130,13 +130,13 @@ app.get('/get/proof', async (req, res) => {
 });
 
 
-app.get("/health", healthCheck);
+// app.get("/health", healthCheck);
 
-app.get("/User", User);
+// app.get("/User", User);
 
-app.post("/Certificate", Certificate);
+// app.post("/Certificate", Certificate);
 
-app.post("/Proof", Proof);
+// app.post("/Proof", Proof);
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
