@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 // const mongoose = require('mongoose')
 // require('dotenv').config()
 
-const healthCheck = require("./controllers/health");
+const healthCheck = require("./models/health");
 const userGet = require("./models/User");
 const proofPost = require("./models/Proof");
 const certificatePost = require("./models/Certificate");
